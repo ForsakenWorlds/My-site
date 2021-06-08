@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrey Udanov | front-end developer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="wraper">
+        <header class="header">
+            <div class="header__container">
+                <a href="" class="header__logo"><img src="./image/AUlogo.jpg" width="80px"></a>
+                <div class="header__menu"></div>
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li><a data-goto=".page__section_1" href="#" class="menu__link">Hello World!</a></li>
+                        <li><a data-goto=".page__section_2" href="#" class="menu__link">Навыки</a></li>
+                        <li><a data-goto=".page__section_3" href="#" class="menu__link">Мои работы</a></li>
+                        <li>
+                            <a data-goto=".page__section_4" href="#" class="menu__link">Контакты</a>
+                            <span class="menu__arrow"></span>
+                            <ul class="menu__sub-list">
+                                <li>
+                                    <a href=" https://www.linkedin.com/in/andrey-yudanov/"
+                                        class="menu__sub-link">linkedid</a>
+                                </li>
+                                <li>
+                                    <a href="tel: 8 - 968 - 692 - 47 - 63" class="menu__sub-link"> 8 - 968 - 692 - 47 -
+                                        63</a>
+                                </li>
+                                <li>
+                                    <a href="https://mail.ru/" class="menu__sub-link">mail: arti2331@mail.ru</a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/ForsakenWorlds" class="menu__sub-link">GitHub</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="page">
+            <section class="page__section page__section_1">
+                <img class="anim1" src="./image/proger2.jpg">
+                <h1 class="page__title">Привет мир!</h1>
+                <div class="page__text">
+                    <p>
+                        Меня зовут Андрей, и я начинающий
+                        веб-разработчик родом из Оренбургской области, а в настоящее время проживающий
+                        в Московской области г.Балашиха. Я активно изучаю фронт-енд технологии, а так-же интерисуюсь
+                        всем, что связанно с миром IT. В свободное время люблю поиграть в ролевые компьютерные игры в
+                        стиле D&D
+                        и смотреть английский футбол.
+                        У меня нет опыта комерческой разработки, но мне нравится верстать сайты, а еще я без ума React
+                        и в будущем планирую изучить все тонкости работы с современными модными фреймворками.
+                        Если хотите поболтать - пишите мне на почту arti2331@mail.ru.
+                        Будтье целеустремленными и желаю всем поменьше багов!!
+                    </p>
+                </div>
+                <button><a href="https://mail.ru/">НАПИСАТЬ МНЕ</a></button>
+            </section>
+
+            <div class="seporator"></div>
+
+            <section class="page__section page__section_2">
+                <h2 class="page__sub-title">Мои навыки</h2>
+                <div class="page__text skils">
+                    <div class="skils__item1 skils__item">
+                        <h3>HTML + CSS</h3>
+                        <div id="anim-html"><img class="anim2" src="./image/html__css.png" alt=""></div>
+                        <p>
+                            Оцениваю свои знания HTML + CSS как хорошие. В работе стараюсь следовать методологии БЭМ,
+                            понимаю семантику и специфичность. 
+                            Верстать предпочитаю на flex-box, с гридами так-же работал, но flex-box как то ближе)
+                        </p>
+                    </div>
+                    <div class="skils__item2 skils__item">
+                        <h3>Java Script</h3>
+                        <div id="anim-html1"><img src="./image/JS.jpg" alt=""></div>
+                        <p>
+                            Знания JS - джуниорские. Умею работать с DOM, c массивами, отправлять Ajax-запросы,
+                            прочитал книгу "JS для детей" и "современный учебник Java Script" с
+                            https://learn.javascript.ru/.
+                            Щупал промисы и классы, но реальных задач со всем этим не выполнял. Только учебные. У меня
+                            всё еще впереди!!))
+                        </p>
+                    </div>
+                    <div class="skils__item3 skils__item">
+                        <h3>React</h3>
+                        <img class="anim3" src="./image/React.png" alt="">
+                        <p>
+                            Это то, что мне нравится) Прохожу курс на youtube, читаю документацию, стараюсь понять все
+                            прелести этого
+                            фреймворка. Начал я относительно недавно, но React меня очень увлекает. Понимаю что такое компонентный подход, зачем он нужен и
+                            как работает dispatch/state/css модули. В будущем надеюсь писать побольше именно SPA-приложений.
+                        </p>
+                    </div>
+                    <div class="skils__item4 skils__item">
+                        <h3>Git/Webpack/Bootstrap/CMS</h3>
+                        <div class="skils__item4-flex">
+                            <img src="./image/GIT.png" alt="">
+                            <img src="./image/Webpack.png" alt="">
+                            <img src="./image/Bootstrap.png" alt="">
+                            <img src="./image/WordPress.png" alt="">
+                        </div>
+                        <p>
+                            Я решил объеденить все эти технологии в один пункт, так как глубоко в них я еще не
+                            разбирался,
+                            да и врятли представится такая возможность без реального офера.
+                            Git - думаю все навыки для начала работы в команде у меня есть.
+                            Webpack - настраивал базовую сборку, которой с головой хватает для решения моих, учебных
+                            задач.
+                            Bootstrap - читал документацию, немного баловался с учебными лендингами.
+                            CMS - не работал не с одной системой управления содержимым, в будущем планирую изучить
+                            WordPress,
+                            но есть сомнения что это может мне пригодится в ближайшее время.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="seporator"></div>
+
+            <section class="page__section page__section_3">
+                <h2>Примеры работ по верстке</h2>
+                <div class="lending">
+                    <div class="lending__item lending__light-devil"><a href="./LightDevil/index.html"><img
+                                src="./image/Light-Devil.jpg"></a></div>
+                    <div class="lending__item  lending__bliz-gamres"><a href="./BlizGames/index.html"><img src="./image/bliz-games.jpg"></a>
+                    </div>
+                    <div class="lending__item  lending__imdb"><a href="./IMDb/index.html"><img src="./image/IMD.jpg"></a></div>
+                </div>
+            </section>
+
+            <div class="seporator"></div>
+
+            <section class="page__section page__section_4">
+                <h2>КОНТАКТЫ</h2>
+                <div class="contacts">
+                    <ul class="contacts__list">
+                        <li>
+                            <a href=" https://www.linkedin.com/in/andrey-yudanov/">linkedid</a>
+                        </li>
+                        <li>
+                            <a href="tel: 8 - 968 - 692 - 47 - 63"> 8 - 968 - 692 - 47 - 63</a>
+                        </li>
+                        <li>
+                            <a href="https://mail.ru/">mail: arti2331@mail.ru</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ForsakenWorlds">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scriptJQ.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
